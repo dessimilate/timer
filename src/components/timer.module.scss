@@ -1,0 +1,21 @@
+.output {
+	display: flex;
+	margin-bottom: 30px;
+	gap: 15px;
+	div {
+		border: 1px solid #000;
+		width: 45px;
+		padding: 0 3px;
+		background-color: #fff;
+		border-radius: 10px;
+		height: 32px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		div {
+			font-size: 25px;
+			width: 100%;
+			border: none;
+		}
+	}
+}
